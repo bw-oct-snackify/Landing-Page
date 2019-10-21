@@ -10,3 +10,75 @@
 .checkborder() {
   border: 2px solid red;
 }
+
+.borderRadius(){
+  border-radius: 10px;
+}
+
+.displayflex1 (@direction: row, @justify: center, @align: center) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @justify;
+  align-items: @align;
+  flex-wrap: wrap;
+}
+
+// styling for navigation
+.navi(){
+  .displayflex1(@justify: space-between);
+  width: 70%;
+ 
+  padding: 1rem;
+  margin: 1rem;
+  a{
+    text-decoration: none;
+  
+    padding: 1rem 1.5rem;
+    color: @color-grey-dark-3;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+  
+  
+  }
+  a:hover{
+    color: white;
+    border: 1px solid @btn-bg-dark;
+    background: @btn-bg-dark;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(0, 0,0, 0.5);
+
+ 
+
+  }
+}
+
+.btn-main(){
+  
+  text-decoration: none;
+  
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: @btn-bg;
+  border: 1px solid @btn-bg;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.4s;
+
+
+  &:hover{
+    color: white;
+    border: 1px solid @btn-bg-dark;
+    background: @btn-bg-dark;
+    box-shadow: 0 1rem 2rem rgba(0, 0,0, 0.5);
+    transform: translateY(-0.2rem);
+
+    text-align: center;
+ 
+
+  }
+
+}
