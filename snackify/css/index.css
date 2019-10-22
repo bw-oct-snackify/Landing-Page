@@ -299,7 +299,7 @@ p {
 @media (max-width: 800px) {
   .ptags p {
     width: 90%;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }
 .Team {
@@ -338,6 +338,12 @@ p {
 @media (max-width: 800px) {
   .andrew {
     width: 48%;
+  }
+}
+@media (max-width: 500px) {
+  .andrew {
+    width: 75%;
+    margin-left: 12%;
   }
 }
 .andrew:hover {
@@ -383,6 +389,12 @@ p {
     width: 48%;
   }
 }
+@media (max-width: 500px) {
+  .young {
+    width: 75%;
+    margin-left: 12%;
+  }
+}
 .young:hover {
   color: white;
   border: 1px solid #007e76;
@@ -424,6 +436,12 @@ p {
 @media (max-width: 800px) {
   .andrew-wilson {
     width: 48%;
+  }
+}
+@media (max-width: 500px) {
+  .andrew-wilson {
+    width: 75%;
+    margin-left: 12%;
   }
 }
 .andrew-wilson:hover {
@@ -469,6 +487,12 @@ p {
     width: 48%;
   }
 }
+@media (max-width: 500px) {
+  .John {
+    width: 75%;
+    margin-left: 12%;
+  }
+}
 .John:hover {
   color: white;
   border: 1px solid #007e76;
@@ -510,6 +534,12 @@ p {
 @media (max-width: 800px) {
   .Lucas {
     width: 48%;
+  }
+}
+@media (max-width: 500px) {
+  .Lucas {
+    width: 75%;
+    margin-left: 12%;
   }
 }
 .Lucas:hover {
@@ -555,6 +585,12 @@ p {
     width: 48%;
   }
 }
+@media (max-width: 500px) {
+  .luis {
+    width: 75%;
+    margin-left: 12%;
+  }
+}
 .luis:hover {
   color: white;
   border: 1px solid #007e76;
@@ -598,6 +634,12 @@ p {
     width: 48%;
   }
 }
+@media (max-width: 500px) {
+  .mark {
+    width: 75%;
+    margin-left: 12%;
+  }
+}
 .mark:hover {
   color: white;
   border: 1px solid #007e76;
@@ -639,6 +681,12 @@ p {
 @media (max-width: 800px) {
   .mikaela {
     width: 48%;
+  }
+}
+@media (max-width: 500px) {
+  .mikaela {
+    width: 75%;
+    margin-left: 12%;
   }
 }
 .mikaela:hover {
