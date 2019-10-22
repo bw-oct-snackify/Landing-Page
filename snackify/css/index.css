@@ -206,9 +206,11 @@ p {
   text-align: center;
   margin-top: 5%;
   margin-bottom: 3%;
+  border-bottom: 2px solid black;
 }
 .Why {
   border-radius: 20px;
+  margin-bottom: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -226,6 +228,7 @@ p {
 .ptags {
   margin-left: 3%;
   margin-right: 3%;
+  padding-bottom: 4%;
   width: 60%;
 }
 .ptags p {
@@ -235,13 +238,25 @@ p {
   text-align: center;
   font-size: 2rem;
 }
+.Team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Team h2 {
+  text-align: center;
+  font-size: 4rem;
+  border-bottom: 2px solid black;
+  width: 18%;
+}
 .Everyone {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 8%;
+  margin-top: 4%;
 }
 .team-img {
   border-radius: 50%;
@@ -259,10 +274,12 @@ p {
 }
 .andrew img {
   margin-top: 10%;
+  margin-bottom: 4%;
   width: 50%;
 }
 .andrew p {
   font-size: 2rem;
+  margin-top: 3%;
 }
 .andrew .linkangithub {
   margin-bottom: 5%;
@@ -287,16 +304,18 @@ p {
 }
 .young img {
   margin-top: 10%;
+  margin-bottom: 4%;
   width: 50%;
 }
 .young p {
   font-size: 2rem;
+  margin-top: 3%;
 }
 .young .linkangithub {
   margin-bottom: 5%;
 }
 .young:hover {
-  background-image: url("../img/chip-bags.jpeg");
+  background-image: url("../img/cheetos2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -315,10 +334,12 @@ p {
 }
 .andrew-wilson img {
   margin-top: 10%;
+  margin-bottom: 4%;
   width: 50%;
 }
 .andrew-wilson p {
   font-size: 2rem;
+  margin-top: 3%;
 }
 .andrew-wilson .linkangithub {
   margin-bottom: 5%;
@@ -343,10 +364,12 @@ p {
 }
 .John img {
   margin-top: 10%;
+  margin-bottom: 4%;
   width: 50%;
 }
 .John p {
   font-size: 2rem;
+  margin-top: 3%;
 }
 .John .linkangithub {
   margin-bottom: 5%;
@@ -371,10 +394,12 @@ p {
 }
 .Lucas img {
   margin-top: 10%;
+  margin-bottom: 4%;
   width: 50%;
 }
 .Lucas p {
   font-size: 2rem;
+  margin-top: 3%;
 }
 .Lucas .linkangithub {
   margin-bottom: 5%;
@@ -399,10 +424,12 @@ p {
 }
 .luis img {
   margin-top: 10%;
+  margin-bottom: 4%;
   width: 50%;
 }
 .luis p {
   font-size: 2rem;
+  margin-top: 3%;
 }
 .luis .linkangithub {
   margin-bottom: 5%;
@@ -427,16 +454,18 @@ p {
 }
 .mark img {
   margin-top: 10%;
+  margin-bottom: 4%;
   width: 50%;
 }
 .mark p {
   font-size: 2rem;
+  margin-top: 3%;
 }
 .mark .linkangithub {
   margin-bottom: 5%;
 }
 .mark:hover {
-  background-image: url("../img/reese's.jpeg");
+  background-image: url("../img/resees\ 2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -455,10 +484,12 @@ p {
 }
 .mikaela img {
   margin-top: 10%;
+  margin-bottom: 4%;
   width: 50%;
 }
 .mikaela p {
   font-size: 2rem;
+  margin-top: 3%;
 }
 .mikaela .linkangithub {
   margin-bottom: 5%;
@@ -469,4 +500,7 @@ p {
   background-position: center;
   background-size: cover;
   color: white;
+}
+button:hover {
+  color: #01d1bf;
 }
