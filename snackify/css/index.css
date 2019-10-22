@@ -156,9 +156,8 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
-.container {
-  max-width: 800px;
-  width: 100%;
+.maincontainer {
+  width: 90%;
   margin: 0 auto;
 }
 .main-nav {
@@ -179,7 +178,7 @@ p {
 }
 .main-nav .nav a {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: black;
 }
 .butdiv {
@@ -192,7 +191,7 @@ p {
 }
 .butdiv a {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .logbut {
   color: #54b1e6;
@@ -201,5 +200,273 @@ p {
   background-color: #01d1bf;
   border-radius: 50px;
   padding: 10px 35px;
+  color: white;
+}
+.why-title {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.Why {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Why .imgofworkers {
+  width: 60%;
+}
+.Why .imgofworkers .workers {
+  margin-top: 5%;
+  width: 100%;
+  border-radius: 10px;
+}
+.ptags {
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 60%;
+}
+.ptags p {
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+.Everyone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 8%;
+}
+.team-img {
+  border-radius: 50%;
+}
+.andrew {
+  width: 23%;
+  border: 4px solid gray;
+  background-color: white;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.andrew img {
+  margin-top: 10%;
+  width: 50%;
+}
+.andrew p {
+  font-size: 2rem;
+}
+.andrew .linkangithub {
+  margin-bottom: 5%;
+}
+.andrew:hover {
+  background-image: url("../img/cookies.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.young {
+  width: 23%;
+  border: 4px solid gray;
+  background-color: white;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.young img {
+  margin-top: 10%;
+  width: 50%;
+}
+.young p {
+  font-size: 2rem;
+}
+.young .linkangithub {
+  margin-bottom: 5%;
+}
+.young:hover {
+  background-image: url("../img/chip-bags.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.andrew-wilson {
+  width: 23%;
+  border: 4px solid gray;
+  background-color: white;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.andrew-wilson img {
+  margin-top: 10%;
+  width: 50%;
+}
+.andrew-wilson p {
+  font-size: 2rem;
+}
+.andrew-wilson .linkangithub {
+  margin-bottom: 5%;
+}
+.andrew-wilson:hover {
+  background-image: url("../img/ruffles.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.John {
+  width: 23%;
+  border: 4px solid gray;
+  background-color: white;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.John img {
+  margin-top: 10%;
+  width: 50%;
+}
+.John p {
+  font-size: 2rem;
+}
+.John .linkangithub {
+  margin-bottom: 5%;
+}
+.John:hover {
+  background-image: url("../img/doritos\ 2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.Lucas {
+  width: 23%;
+  border: 4px solid gray;
+  background-color: white;
+  margin-bottom: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Lucas img {
+  margin-top: 10%;
+  width: 50%;
+}
+.Lucas p {
+  font-size: 2rem;
+}
+.Lucas .linkangithub {
+  margin-bottom: 5%;
+}
+.Lucas:hover {
+  background-image: url("../img/almonds2.jpeg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+.luis {
+  width: 23%;
+  border: 4px solid gray;
+  background-color: white;
+  margin-bottom: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.luis img {
+  margin-top: 10%;
+  width: 50%;
+}
+.luis p {
+  font-size: 2rem;
+}
+.luis .linkangithub {
+  margin-bottom: 5%;
+}
+.luis:hover {
+  background-image: url("../img/beef2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.mark {
+  width: 23%;
+  border: 4px solid gray;
+  background-color: white;
+  margin-bottom: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.mark img {
+  margin-top: 10%;
+  width: 50%;
+}
+.mark p {
+  font-size: 2rem;
+}
+.mark .linkangithub {
+  margin-bottom: 5%;
+}
+.mark:hover {
+  background-image: url("../img/reese's.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.mikaela {
+  width: 23%;
+  border: 4px solid gray;
+  background-color: white;
+  margin-bottom: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.mikaela img {
+  margin-top: 10%;
+  width: 50%;
+}
+.mikaela p {
+  font-size: 2rem;
+}
+.mikaela .linkangithub {
+  margin-bottom: 5%;
+}
+.mikaela:hover {
+  background-image: url("../img/pretzel.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: white;
 }
