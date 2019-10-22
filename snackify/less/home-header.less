@@ -3,7 +3,7 @@
     width: 100%;
   
     padding: 2rem;
-    height: 70vh;
+    height: 60vh;
 
     .displayflex1(@direction: column);
     background-image: linear-gradient(to right bottom, rgba(@btn-bg-dark, 0.8), rgba(@btn-bg-light,.7)), url(../img/snackbox.png);
@@ -13,8 +13,9 @@
 
     div{
         width: 70%;
+        margin-bottom: 3rem;
         h1{
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
             font-weight: 400;
             color: white;
 
@@ -22,6 +23,46 @@
         h2{
             margin-bottom: 1rem;
             color: white;
+           
         }
     }
+// main header buttons
+
+    .btn-header{
+      
+      
+        .btn-explore{
+             .btn-header();  //mixin
+             
+             color: white;
+             background-color: @main-color-dark;
+             display: inline-block;
+             transition: all 0.4s;
+
+             &:hover{
+                 background-color: @main-color-light;
+                 transform: translateY(-0.5rem);
+             }
+        }
+
+        .btn-create{
+            
+            .btn-header();// mixin
+            color: @main-color-dark;
+            background-color: white;
+            display: inline-block;
+            transition: all 0.4s;
+            
+            
+           
+
+            &:hover{
+                background-color: @main-color-light;     
+                color: white;
+                transform: translateY(-0.5rem);
+            }
+       }
+
+    }
+    
 }

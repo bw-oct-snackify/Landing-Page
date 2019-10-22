@@ -25,8 +25,8 @@
 
 // styling for navigation
 .navi(){
-  .displayflex1(@justify: space-between);
-  width: 70%;
+  .displayflex1(@justify: space-around);
+  width: 60%;
  
   padding: 1rem;
   margin: 1rem;
@@ -53,7 +53,7 @@
 
   }
 }
-
+// navigation login sign up buttons
 .btn-main(){
   
   text-decoration: none;
@@ -79,6 +79,27 @@
     text-align: center;
  
 
+  }
+
+}
+
+// mixin for header buttons
+.btn-header(){
+  
+  text-decoration: none;
+  
+  font-size: 1.8rem;
+  padding: 1.2rem 2.5rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  
+  
+
+  &:hover{
+    box-shadow: 0 1rem 2rem rgba(0, 0,0, 0.5);
+    text-align: center;
+  
   }
 
 }
