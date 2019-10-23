@@ -10,7 +10,7 @@ html {
 html,
 body {
   //font-family: "Ubuntu", sans-serif;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 h1,
@@ -19,7 +19,7 @@ h3,
 h4,
 h5 {
   //font-family: "Russo One", sans-serif;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 h1 {
   font-size: 3.5rem;
@@ -41,4 +41,8 @@ p {
 .maincontainer {
   width: 90%;
   margin: 0 auto;
+  @media @mobile {
+    width: 100%;
+    margin: none;
+  }
 }
