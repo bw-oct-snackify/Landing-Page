@@ -2,7 +2,7 @@
   text-align: center;
   margin-top: 5%;
   margin-bottom: 3%;
-  border-bottom: 2px solid black;
+  //   border-bottom: 2px solid @btn-bg;
 }
 .Why {
   border-radius: 20px;
@@ -16,6 +16,9 @@
       margin-top: 5%;
       width: 100%;
       .borderRadius();
+      @media @mobile {
+        display: none;
+      }
     }
   }
 }
@@ -24,14 +27,30 @@
   margin-left: 3%;
   margin-right: 3%;
   padding-bottom: 4%;
-  width: 60%;
+  width: 80%;
+  border-radius: 20px;
+  background-color: @btn-bg;
+  .displayflex(column, center, center);
+  @media @mobile {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+  }
 
   p {
-    background-color: white;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    width: 80%;
+    // background-color: white;
+    border-radius: 20px;
+    color: @white;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    margin-top: 4%;
+    padding: 10px;
+    @media @tablet {
+      width: 90%;
+      font-size: 1.6rem;
+    }
   }
 }
 .Team {
@@ -39,8 +58,8 @@
   h2 {
     text-align: center;
     font-size: 4rem;
-    border-bottom: 2px solid black;
-    width: 18%;
+    // border-bottom: 2px solid @btn-bg;
+    width: 80%;
   }
 }
 .Everyone {
@@ -93,7 +112,7 @@
 }
 
 .Lucas {
-  .mem(0, @white);
+  .mem(3%, @white);
   &:hover {
     background-image: url("../img/almonds2.jpeg");
     background-repeat: no-repeat;
@@ -103,7 +122,7 @@
   }
 }
 .luis {
-  .mem(0, @white);
+  .mem(3%, @white);
   &:hover {
     background-image: url("../img/beef2.jpg");
     background-repeat: no-repeat;
@@ -113,7 +132,7 @@
   }
 }
 .mark {
-  .mem(0, @white);
+  .mem(3%, @white);
   &:hover {
     background-image: url("../img/resees\ 2.jpg");
     background-repeat: no-repeat;
@@ -123,7 +142,7 @@
   }
 }
 .mikaela {
-  .mem(0, @white);
+  .mem(3%, @white);
   &:hover {
     background-image: url("../img/pretzel.jpeg");
     background-repeat: no-repeat;
