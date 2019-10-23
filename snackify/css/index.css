@@ -270,30 +270,31 @@ p {
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 .card__picture--1 {
-  background-image: linear-gradient(to right bottom, #ffd47f, #7c5403), url(../img/pretzel.jpeg);
+  background-image: url(../img/pretzel.jpeg);
 }
 .card__picture--2 {
-  background-image: linear-gradient(to right bottom, #b95de1, #600389), url(../img/chip-bags.jpeg);
+  background-image: url(https://www.bing.com/th?id=OIP.H_RdXQ9CoCZ31MyCAMG6pwHaDo&w=300&h=147&c=7&o=5&dpr=2.2&pid=1.7);
 }
 .card__picture--3 {
-  background-image: linear-gradient(to right bottom, #55dcd2, #007e76), url(../img/oreos.jpeg);
+  background-image: url(https://www.bing.com/th?id=OIP.x5il3ac9726boGcdORgdqQAAAA&w=300&h=176&c=7&o=5&dpr=2.2&pid=1.7);
   background-position: center;
 }
 .card__heading {
   font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
-  text-align: right;
+  text-align: center;
   color: white;
   position: absolute;
   top: 12rem;
   right: 2rem;
-  width: 75%;
+  width: 50%;
 }
 .card__heading-span {
   padding: 0.5rem 1.5rem;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+  display: inline-block;
 }
 .card__heading-span--1 {
   background-image: linear-gradient(to right bottom, rgba(255, 212, 127, 0.85), rgba(124, 84, 3, 0.85));
@@ -338,19 +339,22 @@ p {
   font-size: 5rem;
   font-weight: 100;
 }
-.card .btn--white {
+.card .btn {
   text-decoration: none;
   font-size: 1.8rem;
   padding: 1.2rem 2.5rem;
   border-radius: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
+  transition: all 0.4s;
   color: black;
   background: white;
+  display: inline-block;
 }
-.card .btn--white:hover {
+.card .btn:hover {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   text-align: center;
+  transform: translateY(-0.5rem);
 }
 .section-topChoice {
   background-color: #f7f7f7;
@@ -707,18 +711,18 @@ button:hover {
   border-radius: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
+  transition: all 0.4s;
   color: white;
   background-color: #600389;
   display: inline-block;
-  transition: all 0.4s;
 }
 .main-header .btn-header .btn-explore:hover {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   text-align: center;
+  transform: translateY(-0.5rem);
 }
 .main-header .btn-header .btn-explore:hover {
   background-color: #b95de1;
-  transform: translateY(-0.5rem);
 }
 .main-header .btn-header .btn-create {
   text-decoration: none;
@@ -727,17 +731,17 @@ button:hover {
   border-radius: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
+  transition: all 0.4s;
   color: #600389;
   background-color: white;
   display: inline-block;
-  transition: all 0.4s;
 }
 .main-header .btn-header .btn-create:hover {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   text-align: center;
+  transform: translateY(-0.5rem);
 }
 .main-header .btn-header .btn-create:hover {
   background-color: #b95de1;
   color: white;
-  transform: translateY(-0.5rem);
 }

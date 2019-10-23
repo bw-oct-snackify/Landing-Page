@@ -58,14 +58,17 @@
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         &--1 {
-            background-image: linear-gradient(to right bottom, @color-brown-light, @color-brown-dark), url(../img/pretzel.jpeg);
+            background-image:  url(../img/pretzel.jpeg);
+            //linear-gradient(to right bottom, @color-brown-light, @color-brown-dark),
         }
         &--2 {
-            background-image: linear-gradient(to right bottom, @main-color-light, @main-color-dark),url(../img/chip-bags.jpeg);
+            background-image: url(https://www.bing.com/th?id=OIP.H_RdXQ9CoCZ31MyCAMG6pwHaDo&w=300&h=147&c=7&o=5&dpr=2.2&pid=1.7);
+            //linear-gradient(to right bottom, @main-color-light, @main-color-dark),
         }
         &--3 {
-            background-image: linear-gradient(to right bottom, @btn-bg-light, @btn-bg-dark),url(../img/oreos.jpeg);
+            background-image: url(https://www.bing.com/th?id=OIP.x5il3ac9726boGcdORgdqQAAAA&w=300&h=176&c=7&o=5&dpr=2.2&pid=1.7);
             background-position: center;
+            //linear-gradient(to right bottom, @btn-bg-light, @btn-bg-dark),
         }
 
     }
@@ -74,13 +77,13 @@
         font-size: 2rem;
         font-weight: 300;
         text-transform: uppercase;
-        text-align: right;
+        text-align: center;
 
         color: white;
         position: absolute;
         top: 12rem;
         right: 2rem;
-        width: 75%;
+        width: 50%;
         
 
     }
@@ -89,6 +92,7 @@
         padding: .5rem 1.5rem;
         -webkit-box-decoration-break: clone;
         box-decoration-break: clone;
+        display: inline-block;
         &--1{
             background-image: linear-gradient(to right bottom, rgba(@color-brown-light, .85), rgba(@color-brown-dark, 0.85));
         }
@@ -146,9 +150,10 @@
 
     }
 
-    .btn--white{
+    .btn{
         .btn-header();
         color: black;
         background: white;
+        display: inline-block;
     }
 }
