@@ -3,11 +3,18 @@
     perspective: 150rem;  //perspective of card__side
     -moz-perspective: 150rem;
     position: relative;
-    height: 42rem;
+    height: 44rem;
+
+    &__details{
+        @media @mobile{
+        margin-top: -20px;
+             }
+    }
     
     &__side{
 
-    height: 42rem;
+    height: 43rem;
+    
     transition: all 0.8s ease;
     color: white;
     font-size: 2rem;
@@ -19,6 +26,10 @@
     border-radius: 3px;
     overflow:hidden;
     box-shadow: 0 1.5rem 4rem rgba(black, 0.15);
+
+    @media @mobile{
+        height: 40rem;
+       }
 
         &--front{
             background-color: @white;

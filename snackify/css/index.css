@@ -169,6 +169,11 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  .nav {
+    flex-direction: column;
+  }
+}
 .nav__list {
   display: flex;
   flex-direction: row;
@@ -193,6 +198,12 @@ p {
   text-align: center;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
+@media (max-width: 500px) {
+  .nav__list {
+    justify-content: center;
+    font-size: 1.4rem;
+  }
+}
 .btn-top {
   display: flex;
   flex-direction: row;
@@ -200,6 +211,11 @@ p {
   align-items: center;
   width: 30%;
   margin-right: 1.5rem;
+}
+@media (max-width: 500px) {
+  .btn-top {
+    width: 70%;
+  }
 }
 .btn-top a {
   text-decoration: none;
@@ -221,14 +237,24 @@ p {
   transform: translateY(-0.2rem);
   text-align: center;
 }
+@media (max-width: 500px) {
+  .btn-top a {
+    font-size: 1.2rem;
+  }
+}
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 42rem;
+  height: 44rem;
+}
+@media (max-width: 500px) {
+  .card__details {
+    margin-top: -20px;
+  }
 }
 .card__side {
-  height: 42rem;
+  height: 43rem;
   transition: all 0.8s ease;
   color: white;
   font-size: 2rem;
@@ -240,6 +266,11 @@ p {
   border-radius: 3px;
   overflow: hidden;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 500px) {
+  .card__side {
+    height: 40rem;
+  }
 }
 .card__side--front {
   background-color: white;
@@ -361,20 +392,46 @@ p {
   padding: 6rem 10rem;
   height: 70vh;
 }
+@media (max-width: 800px) {
+  .section-topChoice {
+    padding: 6rem 6rem;
+  }
+}
 .section-topChoice .row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 800px) {
+  .section-topChoice .row {
+    flex-direction: column;
+  }
+}
 .section-topChoice .row .col-1-3 {
   width: 30%;
+}
+@media (max-width: 800px) {
+  .section-topChoice .row .col-1-3 {
+    width: 70%;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .section-topChoice .row .col-1-3 {
+    width: 100%;
+  }
 }
 .section-topChoice h2 {
   margin-bottom: 1rem;
   color: black;
   margin-bottom: 5rem;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .section-topChoice h2 {
+    font-size: 2.5rem;
+  }
 }
 .why-title {
   text-align: center;
@@ -691,6 +748,11 @@ button:hover {
   background-position: center;
   background-size: cover;
 }
+@media (max-width: 500px) {
+  .main-header {
+    height: 70vh;
+  }
+}
 .main-header div {
   width: 70%;
   margin-bottom: 3rem;
@@ -700,9 +762,19 @@ button:hover {
   font-weight: 400;
   color: white;
 }
+@media (max-width: 500px) {
+  .main-header div h1 {
+    font-size: 3rem;
+  }
+}
 .main-header div h2 {
   margin-bottom: 1rem;
   color: white;
+}
+@media (max-width: 500px) {
+  .main-header div h2 {
+    font-size: 2.5rem;
+  }
 }
 .main-header .btn-header .btn-explore {
   text-decoration: none;
@@ -720,6 +792,11 @@ button:hover {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   text-align: center;
   transform: translateY(-0.5rem);
+}
+@media (max-width: 500px) {
+  .main-header .btn-header .btn-explore {
+    font-size: 1.5rem;
+  }
 }
 .main-header .btn-header .btn-explore:hover {
   background-color: #b95de1;
@@ -740,6 +817,11 @@ button:hover {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   text-align: center;
   transform: translateY(-0.5rem);
+}
+@media (max-width: 500px) {
+  .main-header .btn-header .btn-create {
+    font-size: 1.4rem;
+  }
 }
 .main-header .btn-header .btn-create:hover {
   background-color: #b95de1;
