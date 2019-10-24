@@ -1,0 +1,48 @@
+.pricingcontainer {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+
+  background-image: url("../img/snackpackage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% 100%;
+
+  .outerprice {
+    .displayflex(row, center, center);
+    height: 100%;
+  }
+  .allpricing {
+    .displayflex(row, space-around, center);
+    flex-wrap: wrap;
+    width: 40%;
+    height: 90%;
+  }
+
+  .team {
+    width: 35%;
+    height: 25%;
+    background-color: @bg-colour;
+    padding: 2%;
+    .borderRadius();
+    .displayflex(column, space-between, center);
+    h3 {
+      color: black;
+    }
+    h4 {
+      color: @white;
+      font-size: 2.5rem;
+    }
+    p a {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+        transform: translateY(-0.2rem);
+        .borderRadius();
+        padding: 5px;
+        text-align: center;
+      }
+    }
+  }
+}
