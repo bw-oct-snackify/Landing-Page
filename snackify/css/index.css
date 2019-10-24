@@ -928,6 +928,60 @@ p {
 button:hover {
   color: #01d1bf;
 }
+.pricingcontainer {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url("../img/snackpackage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% 100%;
+}
+.pricingcontainer .outerprice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.pricingcontainer .allpricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 40%;
+  height: 90%;
+}
+.pricingcontainer .team {
+  width: 35%;
+  height: 25%;
+  background-color: #01d1bf;
+  padding: 2%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.pricingcontainer .team h3 {
+  color: black;
+}
+.pricingcontainer .team h4 {
+  color: white;
+  font-size: 2.5rem;
+}
+.pricingcontainer .team p a {
+  text-decoration: none;
+  color: black;
+}
+.pricingcontainer .team p a:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  transform: translateY(-0.2rem);
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
 .main-header {
   width: 100%;
   padding: 2rem;
