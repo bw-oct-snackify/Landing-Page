@@ -3,20 +3,30 @@
   height: 100vh;
   margin: 0 auto;
 
-  background-image: url("../img/snackpackage.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90% 100%;
+  // background-image: url("../img/snackpackage.jpg");
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: 90% 100%;
 
   .outerprice {
     .displayflex(row, center, center);
     height: 100%;
+
+    img {
+      border-radius: 20px;
+      @media @tablet {
+        display: none;
+      }
+    }
   }
   .allpricing {
     .displayflex(row, space-around, center);
     flex-wrap: wrap;
     width: 40%;
-    height: 90%;
+    height: 80%;
+    @media @tablet {
+      width: 90%;
+    }
   }
 
   .team {
@@ -26,6 +36,13 @@
     padding: 2%;
     .borderRadius();
     .displayflex(column, space-between, center);
+    @media @tablet {
+      width: 40%;
+    }
+    @media @mobile {
+      width: 60%;
+      margin-bottom: 5%;
+    }
     h3 {
       color: black;
     }

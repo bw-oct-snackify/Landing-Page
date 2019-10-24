@@ -932,10 +932,6 @@ button:hover {
   width: 90%;
   height: 100vh;
   margin: 0 auto;
-  background-image: url("../img/snackpackage.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90% 100%;
 }
 .pricingcontainer .outerprice {
   display: flex;
@@ -944,6 +940,14 @@ button:hover {
   align-items: center;
   height: 100%;
 }
+.pricingcontainer .outerprice img {
+  border-radius: 20px;
+}
+@media (max-width: 800px) {
+  .pricingcontainer .outerprice img {
+    display: none;
+  }
+}
 .pricingcontainer .allpricing {
   display: flex;
   flex-direction: row;
@@ -951,7 +955,12 @@ button:hover {
   align-items: center;
   flex-wrap: wrap;
   width: 40%;
-  height: 90%;
+  height: 80%;
+}
+@media (max-width: 800px) {
+  .pricingcontainer .allpricing {
+    width: 90%;
+  }
 }
 .pricingcontainer .team {
   width: 35%;
@@ -963,6 +972,17 @@ button:hover {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 800px) {
+  .pricingcontainer .team {
+    width: 40%;
+  }
+}
+@media (max-width: 500px) {
+  .pricingcontainer .team {
+    width: 60%;
+    margin-bottom: 5%;
+  }
 }
 .pricingcontainer .team h3 {
   color: black;
